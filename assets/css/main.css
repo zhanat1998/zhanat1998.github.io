@@ -256,10 +256,11 @@ h6 {
   padding: 7px 25px;
   margin: 0 0 0 30px;
   border-radius: 10px;
-  transition: 0.3s;
   background: green;
   text-transform: uppercase;
   border: none;
+  display: flex;
+  gap: 10px;
 }
 
 .header .cta-btn:hover{
@@ -979,6 +980,7 @@ section,
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  width: 100%;
 }
 .hero div a:nth-child(3) p {
   margin: 0;
@@ -996,6 +998,7 @@ section,
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  width: 100%;
 }
 .hero div a:nth-child(4) p {
   margin: 0;
