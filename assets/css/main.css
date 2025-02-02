@@ -237,7 +237,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 66px;
+  width: 106px;
   margin-right: 8px;
 }
 
@@ -569,6 +570,7 @@ h6 {
 
 .footer .footer-top {
   padding-top: 50px;
+  margin-bottom: 70px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -773,7 +775,7 @@ h6 {
 
 .btn-telephone {
   position: fixed;
-  bottom: 5px;
+  bottom: 0;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -965,12 +967,39 @@ section,
   position: relative;
   z-index: 3;
 }
+.hero div {
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px !important;
+}
+.hero div a:nth-child(3) {
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.hero div a:nth-child(3) p {
+  margin: 0;
+  padding: 10px 10px;
+}
+.hero div a:nth-child(4) {
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.hero div a:nth-child(4) p {
+  margin: 0;
+  padding: 10px 10px;
+}
 
 .hero h2 {
-  margin: 0;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 33px;
 }
 
 .hero p {
