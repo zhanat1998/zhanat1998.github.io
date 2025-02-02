@@ -201,6 +201,7 @@ h6 {
   border-radius: 0;
 }
 
+
 .pulsating-play-btn:hover:after {
   border-left: 15px solid var(--accent-color);
   transform: scale(20);
@@ -249,8 +250,7 @@ h6 {
   color: var(--heading-color);
 }
 
-.header .cta-btn,
-.header .cta-btn:focus {
+.header .cta-btn{
   color: var(--contrast-color);
   font-size: 13px;
   padding: 7px 25px;
@@ -262,8 +262,7 @@ h6 {
   border: none;
 }
 
-.header .cta-btn:hover,
-.header .cta-btn:focus:hover {
+.header .cta-btn:hover{
   color: var(--contrast-color);
   background: green;
   /*border-color: var(--accent-color);*/
@@ -278,6 +277,8 @@ h6 {
     order: 2;
     margin: 0 15px 0 0;
     padding: 6px 15px;
+    display: flex;
+    gap: 6px;
   }
 
   .header .navmenu {
@@ -982,6 +983,12 @@ section,
 .hero div a:nth-child(3) p {
   margin: 0;
   padding: 10px 10px;
+}
+.hero div a:nth-child(3) p i{
+  margin-right: 7px;
+}
+.hero div a:nth-child(4) p i{
+  margin-right: 7px;
 }
 .hero div a:nth-child(4) {
   background: green;
